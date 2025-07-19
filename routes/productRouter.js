@@ -8,4 +8,5 @@ productRouter.get("/",getProducts);
 productRouter.post("/add",createProduct);
 productRouter.delete("/delete/:id",deleteProduct);
 
+
 export default productRouter
