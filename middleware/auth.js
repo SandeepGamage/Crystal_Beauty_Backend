@@ -12,9 +12,8 @@ export default function verifyJWT(req,res,next){
                 console.log(decoded)
 
             if(decoded != null){
-               req.user = decoded
+               req.User = decoded
             }
-
          })
     }
 
